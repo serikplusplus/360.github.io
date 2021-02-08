@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="18007" appversion="6.1.10" start="node1">
+  <panorama id="node1">
+    <input levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelbiashidpi="1.000" width="1152" height="1152" levelingroll="0" leveltilesize="510" overlap="1">
+      <level preload="0" predecode="0" width="1152" height="1152"/>
+      <level preload="0" predecode="0" width="576" height="576"/>
+      <level preload="1" predecode="1" width="288" height="288"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="359">
+      <start pan="0" fov="70" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="270" fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90"/>
+    </view>
+    <userdata description="" source="" nodeid="node1" altitude="58.30" info="" copyright="" customnodeid="" comment="" title="" datetime="07.02.2021 15:44" author="" tags="OneDrive - gmlschools.gmlschools" latitude="49.207614" heading="359" longitude="38.909972"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label border="1" textcolor="0x000000" borderradius="1" wordwrap="1" bordercolor="0x000000" background="1" borderalpha="1" enabled="1" width="180" height="20" textalpha="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
+      <hotspot distance="9.91639" description="" pan="266.361" target="144.3/-4.1/70.0" id="Point01" title="Коридор" url="{node2}" tilt="-12.63" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" zoomafteroutfov="20" zoomout="0" softedge="0" blendtime="1" zoomspeed="2" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomafterinfov="90" type="crossdissolve" zoomfov="20"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control invertwheel="0" sensitivity="8" lockedwheel="0" invertcontrol="1" contextprojections="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" hideabout="0" rubberband="0" speedwheel="1" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input levelingpitch="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelbiashidpi="1.000" width="1152" height="1152" levelingroll="0" leveltilesize="510" overlap="1">
+      <level preload="0" predecode="0" width="1152" height="1152"/>
+      <level preload="0" predecode="0" width="576" height="576"/>
+      <level preload="1" predecode="1" width="288" height="288"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="359">
+      <start pan="0" fov="70" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fovstereographic="270" fovfisheye="360" pan="360" fov="120" scaletofit="1" tilt="90"/>
+    </view>
+    <userdata description="" source="" nodeid="node2" altitude="54.83" info="" copyright="" customnodeid="" comment="" title="" datetime="07.02.2021 16:06" author="" tags="OneDrive - gmlschools.gmlschools" latitude="49.207597" heading="359" longitude="38.910106"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label border="1" textcolor="0x000000" borderradius="1" wordwrap="1" bordercolor="0x000000" background="1" borderalpha="1" enabled="1" width="180" height="20" textalpha="1" backgroundcolor="0xffffff" backgroundalpha="1"/>
+      <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" borderalpha="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
+      <hotspot distance="9.91639" description="" pan="-191.44" target="" id="Point01" title="Зал" url="{node1}" tilt="-14.61" skinid="ht_node"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" zoomafteroutfov="20" zoomout="0" softedge="0" blendtime="1" zoomspeed="2" enabled="1" zoomoutpause="1" blendcolor="0x000000" zoomafterinfov="90" type="crossdissolve" zoomfov="20"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control invertwheel="0" sensitivity="8" lockedwheel="0" invertcontrol="1" contextprojections="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" hideabout="0" rubberband="0" speedwheel="1" simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0"/>
+  </panorama>
+  <masternode>
+    <userdata description="" source="" nodeid="master" info="" copyright="" customnodeid="" comment="" title="" datetime="" author="" tags="" latitude="" heading="0" longitude=""/>
+  </masternode>
+</tour>
